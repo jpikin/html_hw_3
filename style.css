@@ -94,3 +94,16 @@ a {
     justify-content: center;
     gap: 48px;
 }
+
+.features {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+.features_paragraph {
+    width: 310px;
+}
+.feature {
+    
+}
