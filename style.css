@@ -8,8 +8,18 @@ a {
 }
 
 .header {
+    display: flex;
     padding-top: 40px;
-    padding-bottom: 40 px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}
+
+.menu {
+    display: flex;
+    align-self: flex-end;
+    gap: 20px;
 }
 
 .menu__link {
@@ -25,6 +35,10 @@ a {
 .top {
     padding-top: 44px;
     padding-bottom: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .h2 {
@@ -35,6 +49,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 522px;
 }
 
 .paragraph {
@@ -45,6 +60,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 522px;
 }
 
 .button {
@@ -54,7 +70,7 @@ a {
     width: 140px;
     height: 50px;
     flex-shrink: 0;
-    }
+}
 
 .watch {
     color: #AAA;
@@ -70,7 +86,11 @@ a {
     padding-top: 54.71px;
 }
 
+
 .logos {
     padding-top: 97px;
     padding-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
 }
